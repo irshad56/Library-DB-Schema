@@ -18,7 +18,7 @@ The SQL script [schema.sql](schema.sql) creates:
 - Relationships
 
 ## 🖼 ER Diagram
-![ER Diagram](ER-Diagram.pdf)
+[ER Diagram](ER-Diagram.pdf)
 
 ## 🚀 Tools Used
 - MySQL Workbench (for schema & ER diagram)
