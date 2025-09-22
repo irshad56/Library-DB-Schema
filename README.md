@@ -12,7 +12,7 @@ The objective is to design a **Library Management Database** using SQL and repre
 - **Rental**: Tracks issue and return transactions.
 
 ## ⚡ Schema
-The SQL script `schema.sql` creates:
+The SQL script [schema.sql](schema.sql) creates:
 - Tables
 - Primary & Foreign Keys
 - Relationships
@@ -25,4 +25,4 @@ The SQL script `schema.sql` creates:
 - GitHub (for submission)
 
 ---
-✅ Deliverables: `schema.sql` + `ER_Diagram.png`
+✅ Deliverables: `schema.sql` + `ER_Diagram.pdf`
