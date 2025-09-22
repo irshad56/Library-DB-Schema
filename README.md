@@ -25,4 +25,4 @@ The SQL script [schema.sql](schema.sql) creates:
 - GitHub (for submission)
 
 ---
-✅ Deliverables: `schema.sql` + `ER_Diagram.pdf`
+✅ Deliverables: `schema.sql` + `ER-Diagram.pdf`
