@@ -1,8 +1,10 @@
 # 📚 Library Database Schema
 
 ## 📌 Overview
-This project is part of Task 1: Database Setup and Schema Design.  
-The objective is to design a **Library Management Database** using SQL and represent it with an **ER Diagram**.
+This project is part of the **Library Management Database** tasks.  
+It covers **Task 1: Database Setup and Schema Design** and **Task 2: Data Insertion and Handling Nulls**.
+
+---
 
 ## 🏗 Entities
 - **Library**: Stores library details.
@@ -11,18 +13,41 @@ The objective is to design a **Library Management Database** using SQL and repre
 - **Customer**: Users who borrow books.
 - **Rental**: Tracks issue and return transactions.
 
-## ⚡ Schema
-The SQL script [schema.sql](schema.sql) creates:
+---
+
+## ⚡ Task 1: Schema
+The SQL script [`schema.sql`](task1/schema.sql) creates:
 - Tables
 - Primary & Foreign Keys
 - Relationships
 
-## 🖼 ER Diagram
-[ER Diagram](ER-Diagram.pdf)
-
-## 🚀 Tools Used
-- MySQL Workbench (for schema & ER diagram)
-- GitHub (for submission)
+### 🖼 ER Diagram
+[ER Diagram](task1/ER-Diagram.pdf)
 
 ---
-✅ Deliverables: `schema.sql` + `ER-Diagram.pdf`
+
+## ⚡ Task 2: Data Insertion & Handling Nulls
+The SQL script [`task2.sql`](task2/task2.sql) contains:
+- **INSERT** statements with some `NULL` values for missing data
+- **UPDATE** statements to fix missing/incorrect information
+- **DELETE** statements using primary keys (safe mode friendly)
+- **SELECT** statements to verify data after each operation
+
+**Entities populated in Task 2:**
+- Librarian
+- Customer
+- Book
+- Rental
+
+---
+
+## 🚀 Tools Used
+- MySQL Workbench (for schema, ER diagram, and queries)
+- SQLiteStudio / DB Fiddle (optional, for running queries)
+- GitHub (for version control & submission)
+
+---
+
+✅ Deliverables: 
+- `task1/schema.sql` + `task1/ER-Diagram.pdf`  
+- `task2/task2.sql`
