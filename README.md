@@ -16,18 +16,18 @@ It covers **Task 1: Database Setup and Schema Design** and **Task 2: Data Insert
 ---
 
 ## ⚡ Task 1: Schema
-The SQL script [`schema.sql`](task1/schema.sql) creates:
+The SQL script [`schema.sql`](schema.sql) creates:
 - Tables
 - Primary & Foreign Keys
 - Relationships
 
 ### 🖼 ER Diagram
-[ER Diagram](task1/ER-Diagram.pdf)
+[ER Diagram](ER-Diagram.pdf)
 
 ---
 
 ## ⚡ Task 2: Data Insertion & Handling Nulls
-The SQL script [`task2.sql`](task2/task2.sql) contains:
+The SQL script [`task2.sql`](task2.sql) contains:
 - **INSERT** statements with some `NULL` values for missing data
 - **UPDATE** statements to fix missing/incorrect information
 - **DELETE** statements using primary keys (safe mode friendly)
@@ -49,5 +49,6 @@ The SQL script [`task2.sql`](task2/task2.sql) contains:
 ---
 
 ✅ Deliverables: 
-- `task1/schema.sql` + `task1/ER-Diagram.pdf`  
-- `task2/task2.sql`
+- `schema.sql`  
+- `ER-Diagram.pdf`  
+- `task2.sql`
