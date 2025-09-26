@@ -5,7 +5,8 @@ This project is part of the **Library Management Database** tasks.
 It currently covers:
 - **Task 1: Database Setup and Schema Design**  
 - **Task 2: Data Insertion and Handling Nulls**  
-- **Task 3: Writing Basic SELECT Queries**
+- **Task 3: Writing Basic SELECT Queries**  
+- **Task 4: Aggregate Functions and Grouping**  
 
 ---
 
@@ -15,7 +16,8 @@ It currently covers:
 - **Book**: Stores book details.  
 - **Customer**: Users who borrow books.  
 - **Rental**: Tracks issue and return transactions.  
-- **Employee** (Task 3 example): Used to demonstrate SELECT queries.
+- **Employee** (Task 3 example): Used to demonstrate SELECT queries.  
+- **Students** (Task 4 example): Used to demonstrate aggregate functions.  
 
 ---
 
@@ -58,6 +60,17 @@ The SQL script [`task3.sql`](task3.sql) contains examples of:
 
 ---
 
+## ⚡ Task 4: Aggregate Functions and Grouping
+The SQL script [`task4.sql`](task4.sql) demonstrates:
+- `SUM`, `AVG`, `COUNT` on numeric columns  
+- `GROUP BY` to categorize results by department  
+- `HAVING` to filter grouped results  
+- Combination of `HAVING` and `LIKE` for advanced filtering  
+
+**Demo Table Used:** `students` (for practicing aggregate queries)  
+
+---
+
 ## 🚀 Tools Used
 - MySQL Workbench (for schema, ER diagram, and queries)  
 - SQLiteStudio / DB Fiddle (optional, for running queries)  
@@ -70,3 +83,4 @@ The SQL script [`task3.sql`](task3.sql) contains examples of:
 - `ER-Diagram.pdf`  
 - `task2.sql`  
 - `task3.sql`  
+- `task4.sql`  
