@@ -7,6 +7,7 @@ It currently covers:
 - **Task 2: Data Insertion and Handling Nulls**  
 - **Task 3: Writing Basic SELECT Queries**  
 - **Task 4: Aggregate Functions and Grouping**  
+- **Task 5: SQL Joins (INNER, LEFT, RIGHT, FULL)**  
 
 ---
 
@@ -18,6 +19,7 @@ It currently covers:
 - **Rental**: Tracks issue and return transactions.  
 - **Employee** (Task 3 example): Used to demonstrate SELECT queries.  
 - **Students** (Task 4 example): Used to demonstrate aggregate functions.  
+- **Customers & Orders** (Task 5 example): Used to demonstrate SQL joins.  
 
 ---
 
@@ -71,6 +73,19 @@ The SQL script [`task4.sql`](task4.sql) demonstrates:
 
 ---
 
+## ⚡ Task 5: SQL Joins
+The SQL script [`task5.sql`](task5.sql) demonstrates:
+- Creation of `Customers` and `Orders` tables  
+- Sample data insertion (including orphan orders for join demonstration)  
+- **INNER JOIN** → Matching rows only  
+- **LEFT JOIN** → All customers + matching orders  
+- **RIGHT JOIN** → All orders + matching customers  
+- **FULL OUTER JOIN** → Implemented using `UNION` (since MySQL doesn’t support it directly)  
+
+**Demo Tables Used:** `Customers` and `Orders`  
+
+---
+
 ## 🚀 Tools Used
 - MySQL Workbench (for schema, ER diagram, and queries)  
 - SQLiteStudio / DB Fiddle (optional, for running queries)  
@@ -84,3 +99,4 @@ The SQL script [`task4.sql`](task4.sql) demonstrates:
 - `task2.sql`  
 - `task3.sql`  
 - `task4.sql`  
+- `task5.sql`  
