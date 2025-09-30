@@ -85,6 +85,18 @@ The SQL script [`task5.sql`](task5.sql) demonstrates:
 **Demo Tables Used:** `Customers` and `Orders`  
 
 ---
+## ⚡ Task 6: Subqueries and Nested Queries
+The SQL script [`task6.sql`](task6.sql)
+ demonstrates:
+-**Scalar Subquery** → Find book with highest price
+-**Subquery with IN** → Find members who borrowed at least one book
+-**Subquery with EXISTS** → Find librarians who issued books
+-**Scalar Subquery with** = → Find books above average price
+-**Subquery in FROM** → Find average price per category
+
+Demo Tables Used: Library, `Librarian`, `Member`, `Book`, `Borrow`
+
+--
 
 ## 🚀 Tools Used
 - MySQL Workbench (for schema, ER diagram, and queries)  
@@ -99,5 +111,5 @@ The SQL script [`task5.sql`](task5.sql) demonstrates:
 - `task2.sql`  
 - `task3.sql`  
 - `task4.sql`  
-- `task5.sql`  
-now  updtae readme file
+- `task5.sql`
+- `task6.sql`
